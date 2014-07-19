@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-294" y="587"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Players-->
         <scene sceneID="Yqv-BN-AwC">
             <objects>
                 <tableViewController id="hsO-AT-USb" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="hsO-AT-USb" id="Wze-fa-Hs2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="M2g-OR-NBu"/>
+                    <navigationItem key="navigationItem" title="Players" id="M2g-OR-NBu"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cph-BT-NkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
