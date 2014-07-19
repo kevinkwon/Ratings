@@ -15,8 +15,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="CDO-ix-ni5" kind="relationship" relationship="viewControllers" id="WeM-b1-CDb"/>
                         <segue destination="l3g-Pk-6lU" kind="relationship" relationship="viewControllers" id="nZC-EP-3Tp"/>
+                        <segue destination="CDO-ix-ni5" kind="relationship" relationship="viewControllers" id="WeM-b1-CDb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbT-jv-xGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -52,7 +52,7 @@
             </objects>
             <point key="canvasLocation" x="801" y="269"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - getstures-->
         <scene sceneID="nNE-zP-96A">
             <objects>
                 <viewController id="CDO-ix-ni5" sceneMemberID="viewController">
@@ -69,17 +69,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="wwF-TN-vz8"/>
+                    <tabBarItem key="tabBarItem" title="getstures" image="Gestures.png" id="wwF-TN-vz8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZD-uF-sA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="276" y="941"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - players-->
         <scene sceneID="IQC-0C-MX9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l3g-Pk-6lU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Wcf-TD-kGk"/>
+                    <tabBarItem key="tabBarItem" title="players" image="Players.png" id="Wcf-TD-kGk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rzq-e6-FHN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -95,6 +95,10 @@
             <point key="canvasLocation" x="275" y="269"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures.png" width="30" height="30"/>
+        <image name="Players.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
