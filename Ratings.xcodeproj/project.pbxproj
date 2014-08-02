@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0BDD4C198C6CC000E684B5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDD4B198C6CC000E684B5 /* Player.m */; };
 		4F5694951979FCD0005D59D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5694941979FCD0005D59D4 /* Foundation.framework */; };
 		4F5694971979FCD0005D59D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5694961979FCD0005D59D4 /* CoreGraphics.framework */; };
 		4F5694991979FCD0005D59D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5694981979FCD0005D59D4 /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0BDD4A198C6CC000E684B5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		4F0BDD4B198C6CC000E684B5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		4F5694911979FCD0005D59D4 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5694941979FCD0005D59D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F5694961979FCD0005D59D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,6 +176,8 @@
 				4F5694AA1979FCD0005D59D4 /* ViewController.m */,
 				4F5694AC1979FCD0005D59D4 /* Images.xcassets */,
 				4F56949B1979FCD0005D59D4 /* Supporting Files */,
+				4F0BDD4A198C6CC000E684B5 /* Player.h */,
+				4F0BDD4B198C6CC000E684B5 /* Player.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				4F5694A51979FCD0005D59D4 /* AppDelegate.m in Sources */,
 				4FC0F095198C6B9100C9A9A9 /* PlayersTableViewController.m in Sources */,
 				4F5694A11979FCD0005D59D4 /* main.m in Sources */,
+				4F0BDD4C198C6CC000E684B5 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
