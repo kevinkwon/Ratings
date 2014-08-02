@@ -102,8 +102,8 @@
 		4F5694E1197A1292005D59D4 /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
 		4F5694E2197A1292005D59D4 /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
 		4F5694E3197A1292005D59D4 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
-		4FC0F092198C6B9100C9A9A9 /* PlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayersTableViewController.h; path = Ratings/PlayersTableViewController.h; sourceTree = "<group>"; };
-		4FC0F093198C6B9100C9A9A9 /* PlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayersTableViewController.m; path = Ratings/PlayersTableViewController.m; sourceTree = "<group>"; };
+		4FC0F092198C6B9100C9A9A9 /* PlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
+		4FC0F093198C6B9100C9A9A9 /* PlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,6 @@
 		4F5694881979FCD0005D59D4 = {
 			isa = PBXGroup;
 			children = (
-				4FC0F092198C6B9100C9A9A9 /* PlayersTableViewController.h */,
-				4FC0F093198C6B9100C9A9A9 /* PlayersTableViewController.m */,
 				4F5694CB197A1292005D59D4 /* Images */,
 				4F56949A1979FCD0005D59D4 /* Ratings */,
 				4F5694B91979FCD0005D59D4 /* RatingsTests */,
@@ -166,6 +164,8 @@
 		4F56949A1979FCD0005D59D4 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
+				4FC0F092198C6B9100C9A9A9 /* PlayersTableViewController.h */,
+				4FC0F093198C6B9100C9A9A9 /* PlayersTableViewController.m */,
 				4F5694A31979FCD0005D59D4 /* AppDelegate.h */,
 				4F5694A41979FCD0005D59D4 /* AppDelegate.m */,
 				4F5694A61979FCD0005D59D4 /* Main.storyboard */,
